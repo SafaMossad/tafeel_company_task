@@ -1,0 +1,9 @@
+{
+  "hello": "hello",
+  "usersList": "Users List",
+  "userProfile": "User Profile",
+  "personalInfo": "Personal Information",
+  "firstName": "First Name",
+  "lastName": "Last Name",
+  "email": "Email"
+}
