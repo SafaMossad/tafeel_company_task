@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:tafeel_task/core/utils/constants.dart';
-import 'package:tafeel_task/data/models/employee/response/user_model.dart';
+import 'package:tafeel_task/data/models/user/response/user_model.dart';
 
 import '../../../../core/utils/alerts.dart';
 import '../../../../data/models/base_response/base_model.dart';
-import '../../../../data/models/employee/request/fetch_users_request_body_model.dart';
+import '../../../../data/models/user/request/fetch_users_request_body_model.dart';
 import '../../../../domain/use_case/user/featch_user_list.dart';
 
 class UsersListViewModel extends ChangeNotifier {

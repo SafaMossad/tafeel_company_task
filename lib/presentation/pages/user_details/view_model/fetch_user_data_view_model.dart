@@ -1,7 +1,7 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:tafeel_task/data/models/employee/response/user_model.dart';
+import 'package:tafeel_task/data/models/user/response/user_model.dart';
 import 'package:tafeel_task/domain/use_case/user/featch_user_details.dart';
 
 import '../../../../core/utils/alerts.dart';

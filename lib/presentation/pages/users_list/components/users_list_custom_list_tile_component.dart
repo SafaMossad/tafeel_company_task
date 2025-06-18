@@ -3,7 +3,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../config/navigation/navigation.dart';
 import '../../../../core/resources/resources.dart';
-import '../../../../data/models/employee/response/user_model.dart';
+import '../../../../data/models/user/response/user_model.dart';
 import '../../../widgets/app_widgets.dart';
 import '../../../widgets/custom_network_image.dart';
 import '../../../widgets/spaces.dart';
@@ -45,14 +45,15 @@ class UsersListCustomListTileComponent extends StatelessWidget {
                         .titleMedium!
                         .copyWith(
                             fontWeight: FontWeightManager.bold,
+                            fontFamily: FontFamilyManager.manropeBoldFontFamily,
                             color: ColorManager.black)),
                 CustomText(user?.email ?? "",
                     textStyle: Theme.of(context)
                         .textTheme
                         .titleMedium!
                         .copyWith(
-                            fontWeight: FontWeightManager.regular,
-                            color: ColorManager.wormGreyColor)),
+                            fontWeight: FontWeightManager.medium,
+                            color: ColorManager.lightBlack)),
               ],
             ))
           ])),

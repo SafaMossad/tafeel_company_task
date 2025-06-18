@@ -43,3 +43,17 @@ flutter:
   
   assets:
       - assets/icons/
+
+
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/fonts/Cairo-VariableFont_slnt,wght.ttf
+
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope-VariableFont_wght.ttf
+
+    - family: ManropeBold
+      fonts:
+        - asset: assets/fonts/manrope.bold.otf

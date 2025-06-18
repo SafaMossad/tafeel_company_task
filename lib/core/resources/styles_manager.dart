@@ -5,8 +5,7 @@ import 'package:tafeel_task/core/resources/resources.dart';
 TextStyle _getTextStyle(double fontSize, FontWeight? fontWeight, Color color) {
   return TextStyle(
     fontSize: fontSize,
-    fontFamily: 
-        FontFamilyManager.manropeFontFamily,
+    fontFamily: FontFamilyManager.manropeBoldFontFamily,
     color: color,
     fontWeight: fontWeight ?? FontWeightManager.medium,
   );

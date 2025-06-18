@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../../core/resources/resources.dart';
-import '../../../../data/models/employee/response/user_model.dart';
+import '../../../../data/models/user/response/user_model.dart';
 import '../../../../translations/local_keys.g.dart';
 import '../../../widgets/app_widgets.dart';
 import '../../../widgets/spaces.dart';

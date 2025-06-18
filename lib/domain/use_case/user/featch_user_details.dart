@@ -12,6 +12,6 @@ class FeatchUsersDetailsUseCase extends BaseUseCase<BaseModel, int> {
 
   @override
   Future<Either<Failure, BaseModel>> call(int parameters) async {
-    return await baseUsersRepository.getEmployeeDetails(parameters);
+    return await baseUsersRepository.getUserDetails(parameters);
   }
 }

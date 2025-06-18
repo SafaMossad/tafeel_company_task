@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class FontFamilyManager {
-  static const String sharymanropeFontFamily = "Shary";
   static const String manropeFontFamily = "Manrope";
   static const String manropeBoldFontFamily = "ManropeBold";
   static const String cairoFontFamily = "Cairo";

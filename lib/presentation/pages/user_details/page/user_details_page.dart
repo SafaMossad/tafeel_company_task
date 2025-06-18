@@ -67,6 +67,7 @@ class _UsersDetailsPageState extends State<UsersDetailsPage> {
                         .headlineLarge!
                         .copyWith(
                             color: ColorManager.black,
+                            fontFamily: FontFamilyManager.manropeBoldFontFamily,
                             fontWeight: FontWeightManager.bold)),
                 CustomText(userData?.email ?? "",
                     textStyle: Theme.of(context)
